@@ -12,7 +12,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
 
-export default class App extends React.Component() {
+export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { text: '' };
@@ -22,7 +22,7 @@ export default class App extends React.Component() {
     Alert.alert(input.text);
   }
 
-  Render() {
+  render() {
     return (
       <NavigationContainer>
         <Stack.Navigator

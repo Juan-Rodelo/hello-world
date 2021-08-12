@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text, Button, TextInput } from 'react-native';
 
 export default class Start extends React.Component {
   constructor(props) {
